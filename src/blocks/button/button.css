@@ -1,10 +1,12 @@
 .button {
+  min-height: 36px;
   border: none;
   border-radius: 4px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+
 }
 
 .button:hover {
@@ -12,3 +14,9 @@
   opacity: .7;
   transition: ease-in .2s;
 }
+
+
+
+
+
+

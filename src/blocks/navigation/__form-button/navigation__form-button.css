@@ -1,0 +1,15 @@
+.navigation__form-button {
+  min-width: 91px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 0 4px 4px 0;
+  color: white;
+  background-color: #3b82f6;
+}
+
+
+
+
+

@@ -1,0 +1,18 @@
+.navigation__low-res-container {
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 466px) {
+  .navigation__low-res-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 362px) {
+  .navigation__low-res-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+}

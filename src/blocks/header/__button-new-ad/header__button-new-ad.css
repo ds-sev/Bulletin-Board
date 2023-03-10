@@ -1,6 +1,18 @@
 .header__button-new-ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
   background-color: #3b82f6;
   color: white;
   height: 32px;
   width: 179px;
+}
+
+@media screen and (max-width: 382px) {
+  .header__button-new-ad {
+
+    width: 56px;
+    
+  }
 }

@@ -1,0 +1,5 @@
+@media screen and (max-width: 382px) {
+  .header__button-add-icon {
+    width: 16px;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 382px) {
+  .header__button-login-icon {
+    width: 20px;
+  }
+}
