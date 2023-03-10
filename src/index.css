@@ -1,0 +1,30 @@
+@import url(../src/vendor/normalize.css);
+@import url(../src/vendor/fonts/fonts.css);
+
+@import url(../src/blocks/body/body.css);
+@import url(../src/blocks/wrapper/wrapper.css);
+@import url(../src/blocks/container/container.css);
+
+@import url(../src/blocks/button/button.css);
+
+@import url(../src/blocks/header/header.css);
+@import url(../src/blocks/header/__container/header__container.css);
+@import url(../src/blocks/header/__buttons-container/header__buttons-container.css);
+@import url(../src/blocks/header/__button-login/header____button-login.css);
+@import url(../src/blocks/header/__button-new-ad/header__button-new-ad.css);
+
+@import url(../src/blocks/);
+
+html {
+  height: 100%;
+}
+
+
+
+.main {
+  flex: 1 1 auto;
+}
+
+.footer {
+  border: 1px solid red;
+}

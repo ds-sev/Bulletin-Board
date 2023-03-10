@@ -1,0 +1,11 @@
+.header__button-login {
+  display: flex;
+  column-gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+  background-color: transparent;
+  height: 32px;
+  width: 70px;
+  color: white;
+}

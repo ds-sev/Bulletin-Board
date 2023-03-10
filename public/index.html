@@ -2,16 +2,38 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="alternate icon" href="favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#000000">
     <meta name="keywords" content="куплю, продам, объявления">
     <meta name="author" content="Дмитрий Литвиненко">
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="../src/index.css">
     <title>SolarLab / Доска объявлений</title>
   </head>
-  <body>
-    <div id="root"></div>
+  <body class="body">
+    <div class="wrapper">
+
+
+      <header class="header">
+        <div class="header__container container">
+          <div class="header__buttons-container">
+            <a class="header__button-login button">
+              <img class="header__button-login-icon" src="../src/images/icons/login-icon.svg" alt="login">
+              Войти
+            </a>
+            <button class="header__button-new-ad button">Новое объявление</button>
+          </div>
+        </div>
+      </header>
+
+
+      <main class="main">
+        <div class="container">
+        <h1>Доска объявлений</h1>
+        </div>
+      </main>
+      <footer class="footer">2023</footer>
+    </div>
   </body>
 </html>
