@@ -12,4 +12,5 @@
   color: #64748b;
   text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
+  -webkit-appearance: none;
 }
