@@ -5,6 +5,8 @@ class Card {
     this._photoLink = cardData.photo
     this._price = cardData.price
     this._location = cardData.location
+    this._date = cardData.date
+    this._time = cardData.time
   }
   //метод для подготовки шаблона объявления
   _getTemplate() {
@@ -21,6 +23,9 @@ class Card {
     this._cardTemplateElement.querySelector('.card__photo-container').style.backgroundImage = `url(${this._photoLink}`
     this._cardTemplateElement.querySelector('.card__price').textContent = `${this._price} ₽`
     this._cardTemplateElement.querySelector('#location').textContent = this._location
+    this._cardTemplateElement.querySelector('#day').textContent = this._date
+
+    this._cardTemplateElement.querySelector('#time').textContent = this._time
     //возвращение заполненной данными карточки объявления
     return this._cardTemplateElement
   }

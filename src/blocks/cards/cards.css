@@ -1,0 +1,30 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+  row-gap: 32px;
+  grid-auto-rows: auto;
+}
+
+@media screen and (max-width: 1014px) {
+  .cards {
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 18px;
+    row-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 673px) {
+  .cards {
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .cards {
+    justify-items: center;
+    grid-template-columns: 100%;
+  }
+}

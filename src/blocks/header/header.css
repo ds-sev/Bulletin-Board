@@ -1,4 +1,4 @@
 .header {
-  height: 52px;
+  min-height: 52px;
   background-color: #1e293b;
 }

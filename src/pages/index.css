@@ -4,7 +4,6 @@
 @import url(../blocks/body/body.css);
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/container/container.css);
-
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__text/_hide/button__text_hide.css);
 
@@ -18,6 +17,7 @@
 @import url(../blocks/header/__button-login-icon/header__button-login-icon.css);
 
 /*===== MAIN =====*/
+/*navigation*/
 @import url(../blocks/main/main.css);
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__container/navigation__container.css);
@@ -27,78 +27,24 @@
 @import url(../blocks/navigation/__form/navigation__form.css);
 @import url(../blocks/navigation/__form-field/navigation__form-field.css);
 @import url(../blocks/navigation/__form-button/navigation__form-button.css);
+/*cards*/
+@import url(../blocks/content/__title/content__title.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__photo-container/card__photo-container.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__price/card__price.css);
+@import url(../blocks/card/__additional-info/card__additional-info.css);
+@import url(../blocks/card/__additional-info/_inline/card__additional-info_inline.css);
 
-
-
-/*@import url(../src/blocks/);*/
+/*===== FOOTER =====*/
+@import url(../blocks/footer/footer.css);
 
 html {
   height: 100%;
 }
 
 
-.cards {
-  display: flex;
-  justify-content: space-between;
-  
-  border: 1px solid red;
-}
-
-.card {
-  max-width: 306px;
-  max-height: 336px;
-  overflow: hidden;
-  
-  
-  
-  border: 1px solid red;
-}
-
-.card__photo-container {
-  height: 240px;
-  display: flex;
-  border-radius: 4px;
-  transition: ease-out .2s;
-  will-change: transform;
-}
-
-.card__photo-container:hover {
-  transition: ease-in .1s;
-  opacity: .95;
-  cursor: pointer;
-}
-
-
-.card__photo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.card__title {
-  margin: 8px 0 0;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  color: #3B82F6;
-}
-
-.card__price {
-  margin: 0;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 24px;
-  color: #1E293B;
-}
-
-.card__additional-info {
-  margin: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  color: #64748B;
-}
 
 
 
@@ -115,17 +61,3 @@ html {
 
 
 
-
-
-
-
-
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 120px;
-  background-color: #1e293b;
-  color: white;
-}

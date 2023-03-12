@@ -6,9 +6,9 @@
     <meta name="theme-color" content="#000000">
     <meta name="keywords" content="куплю, продам, объявления">
     <meta name="author" content="Дмитрий Литвиненко">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="alternate icon" href="favicon.png" type="image/png">
-    <link rel="stylesheet" href="../src/pages/index.css">
+    <link rel="icon" href="public/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="public/favicon.png" type="image/png">
+    <link rel="stylesheet" href="src/pages/index.css">
     <title>SolarLab / Доска объявлений</title>
   </head>
   <body class="body">
@@ -17,10 +17,10 @@
         <div class="header__container container">
           <div class="header__buttons-container">
             <a class="header__button-login button">
-              <img class="header__button-login-icon" src="../src/images/icons/login-icon.svg" alt="login">
+              <img class="header__button-login-icon" src="src/images/icons/login-icon.svg" alt="login">
               <span class="button__text_hide">Войти</span></a>
             <button class="header__button-new-ad button"><span class="button__text_hide">Новое объявление</span><img
-                    class="header__button-add-icon" src="../src/images/icons/new-ad-icon.svg" alt="new-ad-icon">
+                    class="header__button-add-icon" src="src/images/icons/new-ad-icon.svg" alt="new-ad-icon">
             </button>
           </div>
         </div>
@@ -30,14 +30,14 @@
           <div class="navigation__container container">
             <h1 class="navigation__title">Доска объявлений</h1>
             <div class="navigation__low-res-container">
-              <button class="navigation__button-categories button"><img src="../src/images/icons/list-nested.svg"
-                                                                        alt="categoties-icon">Все категории
+              <button class="navigation__button-categories button"><img src="src/images/icons/list-nested.svg"
+                                                                        alt="categories-icon">Все категории
               </button>
-              <form class="navigation__form" action="" method="get">
+              <form class="navigation__form" method="get">
                 <input class="navigation__form-field" name="s" placeholder="Поиск по объявлениям" type="search"
                        required>
                 <button type="submit" class="navigation__form-button button">
-                  Найти<img src="../src/images/icons/find-icon.svg"></button>
+                  Найти<img src="src/images/icons/find-icon.svg" alt="find-icon"></button>
               </form>
             </div>
           </div>
@@ -52,19 +52,20 @@
                 </div>
                 <div class="card__info">
                   <h3 class="card__title"></h3>
-                  <p class="card__price">20 000 &#8381</p>
-                  <p class="card__additional-info" id="location">Москва, Ленинский проспект</p>
-                  <p class="card__additional-info">Сегодня
-                    <time>14:12</time>
-                  </p>
+                  <p class="card__price"></p>
+                  <p class="card__additional-info" id="location">Location</p>
+                  <p class="card__additional-info card__additional-info_inline" id="day">Date</p>
+                  <p class="card__additional-info card__additional-info_inline" id="time">Time</p>
                 </div>
               </div>
             </template>
           </div>
         </section>
       </main>
-      <footer class="footer">2023&#169</footer>
+      <footer class="footer">
+        <p class="footer__text">2023&copy;</p>
+      </footer>
     </div>
-    <script src="../src/scripts/index.js" type="module" defer></script>
+    <script src="src/scripts/index.js" type="module"></script>
   </body>
 </html>

@@ -24,6 +24,9 @@ function renderCards() {
 }
 
 renderCards()
+renderCards()
+renderCards()
+renderCards()
 
 
 

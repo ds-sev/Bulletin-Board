@@ -1,0 +1,14 @@
+.card__photo-container {
+  height: 240px;
+  max-width: 100%;
+  display: flex;
+  border-radius: 4px;
+  transition: ease-out .2s;
+  will-change: transform;
+}
+
+.card__photo-container:hover {
+  transition: ease-in .1s;
+  opacity: .9;
+  cursor: pointer;
+}
