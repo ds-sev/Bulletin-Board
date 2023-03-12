@@ -1,6 +1,6 @@
 .navigation__button-categories {
-  min-width: 153px;
-  max-height: 36px;
+  min-width: 152px;
+  height: 36px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,6 +17,13 @@
   border: 1px solid #3b82f6;
   background-color: transparent;
   color: #3b82f6;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 466px) {
