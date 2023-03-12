@@ -1,5 +1,5 @@
 # ДЗ Solar Lab: Доска объявлений
-<img src="" width="400px" align="right"> 
+<img src="https://github.com/ds-sev/Bulletin-Board/blob/main/images/preview.png" width="400px" align="right"> 
 
 [Посмотреть готовый проект](https://ds-sev.github.io/Bulletin-Board/)
 
