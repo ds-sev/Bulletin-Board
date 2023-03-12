@@ -5,12 +5,16 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
+  -webkit-transition: ease-out .2s;
+  -o-transition: ease-out .2s;
   transition: ease-out .2s;
 }
 
 .button:hover {
   cursor: pointer;
   opacity: .6;
+  -webkit-transition: ease-in .2s;
+  -o-transition: ease-in .2s;
   transition: ease-in .2s;
 }
 

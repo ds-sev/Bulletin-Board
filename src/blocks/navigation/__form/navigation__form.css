@@ -1,5 +1,7 @@
 .navigation__form {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
