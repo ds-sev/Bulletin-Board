@@ -1,6 +1,6 @@
 const exampleCards = [{
   name: 'Гитара Fender',
-  photo: './src/images/cards-examples/guitar.jpg',
+  photo: '../src/images/cards-examples/guitar.jpg',
   price: '20 000',
   location: 'Москва, Ленинградский проспект',
   date: 'Сегодня',
@@ -8,7 +8,7 @@ const exampleCards = [{
 },
   {
     name: 'Женщина',
-    photo: './src/images/cards-examples/girl.jpg',
+    photo: '../src/images/cards-examples/girl.jpg',
     price: '10 000',
     location: 'Санкт-Петербург, Московский переулок',
     date: 'Вчера',
