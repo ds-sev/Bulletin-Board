@@ -13,4 +13,5 @@
   text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
   -webkit-appearance: none;
+  background-color: white;
 }

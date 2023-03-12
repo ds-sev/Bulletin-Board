@@ -1,6 +1,6 @@
 .navigation__form-button {
   min-width: 91px;
-  height: 36px;
+  max-height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
