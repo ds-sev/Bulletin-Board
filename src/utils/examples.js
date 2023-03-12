@@ -8,7 +8,7 @@ const exampleCards = [{
 },
   {
     name: 'Женщина',
-    photo: '../src/images/cards-examples/girl.jpg',
+    photo: 'src/images/cards-examples/girl.jpg',
     price: '10 000',
     location: 'Санкт-Петербург, Московский переулок',
     date: 'Вчера',
