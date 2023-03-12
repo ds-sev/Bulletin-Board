@@ -1,14 +1,15 @@
-const exampleCards = [{
-  name: 'Гитара Fender',
-  photo: '../src/images/cards-examples/guitar.jpg',
-  price: '20 000',
-  location: 'Москва, Ленинградский проспект',
-  date: 'Сегодня',
-  time: `${new Date().getHours()}:${new Date().getMinutes()}`
-},
+const exampleCards = [
+  {
+    name: 'Гитара Fender',
+    photo: '../src/images/cards-examples/guitar.jpg',
+    price: '20 000',
+    location: 'Москва, Ленинградский проспект',
+    date: 'Сегодня',
+    time: `${new Date().getHours()}:${new Date().getMinutes()}`
+  },
   {
     name: 'Женщина',
-    photo: 'src/images/cards-examples/girl.jpg',
+    photo: '../../src/images/cards-examples/girl.jpg',
     price: '10 000',
     location: 'Санкт-Петербург, Московский переулок',
     date: 'Вчера',
@@ -21,7 +22,6 @@ const exampleCards = [{
     location: 'Бобруйск, Ленинградский проспект',
     date: '21.11.2005',
     time: '12:34'
-
   }]
 
 export default exampleCards
