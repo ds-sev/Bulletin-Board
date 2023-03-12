@@ -8,7 +8,7 @@
     <meta name="author" content="Дмитрий Литвиненко">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="alternate icon" href="favicon.png" type="image/png">
-    <link rel="stylesheet" href="../src/index.css">
+    <link rel="stylesheet" href="../src/pages/index.css">
     <title>SolarLab / Доска объявлений</title>
   </head>
   <body class="body">
@@ -18,8 +18,7 @@
           <div class="header__buttons-container">
             <a class="header__button-login button">
               <img class="header__button-login-icon" src="../src/images/icons/login-icon.svg" alt="login">
-              <span class="button__text_hide">Войти</span>
-            </a>
+              <span class="button__text_hide">Войти</span></a>
             <button class="header__button-new-ad button"><span class="button__text_hide">Новое объявление</span><img
                     class="header__button-add-icon" src="../src/images/icons/new-ad-icon.svg" alt="new-ad-icon">
             </button>
@@ -35,15 +34,37 @@
                                                                         alt="categoties-icon">Все категории
               </button>
               <form class="navigation__form" action="" method="get">
-                <input class="navigation__form-field" name="s" placeholder="Поиск по объявлениям" type="search">
+                <input class="navigation__form-field" name="s" placeholder="Поиск по объявлениям" type="search"
+                       required>
                 <button type="submit" class="navigation__form-button button">
                   Найти<img src="../src/images/icons/find-icon.svg"></button>
               </form>
             </div>
           </div>
         </section>
+        <section class="content container">
+          <h2 class="content__title">Рекомендации для вас</h2>
+          <div class="cards">
+            <template id="card">
+              <div class="card">
+                <div class="card__photo-container" id="image-card" style="background-position: center;
+        background-size: cover">
+                </div>
+                <div class="card__info">
+                  <h3 class="card__title"></h3>
+                  <p class="card__price">20 000 &#8381</p>
+                  <p class="card__additional-info" id="location">Москва, Ленинский проспект</p>
+                  <p class="card__additional-info">Сегодня
+                    <time>14:12</time>
+                  </p>
+                </div>
+              </div>
+            </template>
+          </div>
+        </section>
       </main>
-      <footer class="footer">2023</footer>
+      <footer class="footer">2023&#169</footer>
     </div>
+    <script src="../src/scripts/index.js" type="module" defer></script>
   </body>
 </html>

@@ -5,12 +5,12 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-
+  transition: ease-out .2s;
 }
 
 .button:hover {
   cursor: pointer;
-  opacity: .7;
+  opacity: .6;
   transition: ease-in .2s;
 }
 

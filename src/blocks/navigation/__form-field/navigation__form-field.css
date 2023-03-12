@@ -8,6 +8,7 @@
   border-right: none;
   border-radius: 4px 0 0 4px;
   line-height: 20px;
+  outline: none;
   color: #64748b;
   text-overflow: ellipsis;
   -o-text-overflow: ellipsis;
